@@ -1,0 +1,85 @@
+/* ===== Background ===== */
+.stApp{
+    background: linear-gradient(135deg,#0F172A,#1E3A8A);
+}
+
+/* ===== Main Container ===== */
+.block-container{
+    background:#a4e8f9;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.25);
+}
+
+/* ===== Headings ===== */
+h1{
+    text-align:center;
+    color:hsla(274, 40%, 77%, 0.909);
+    font-size:42px;
+    font-weight:bold;
+}
+
+h2,h3{
+    color:#1E3A8A;
+}
+
+/* ===== Buttons ===== */
+.stButton>button{
+    width:100%;
+    background:#2563EB;
+    color:white;
+    border:none;
+    border-radius:12px;
+    padding:12px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.stButton>button:hover{
+    background:#1D4ED8;
+}
+
+/* ===== Download Button ===== */
+.stDownloadButton>button{
+    width:100%;
+    background:#16A34A;
+    color:white;
+    border:none;
+    border-radius:12px;
+    padding:12px;
+    font-size:18px;
+}
+
+/* ===== File Uploader ===== */
+[data-testid="stFileUploader"]{
+    border:2px dashed #2563EB;
+    border-radius:15px;
+    padding:20px;
+}
+
+/* ===== Text Area ===== */
+textarea{
+    border-radius:10px !important;
+}
+
+/* ===== Metric Cards ===== */
+[data-testid="stMetric"]{
+    background:#F8FAFC;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* ===== Success Message ===== */
+[data-testid="stAlert"]{
+    border-radius:12px;
+}
+
+/* ===== Sidebar ===== */
+section[data-testid="stSidebar"]{
+    background:#111827;
+}
+
+section[data-testid="stSidebar"] *{
+    color:white;
+}
